@@ -28,7 +28,7 @@ df_by_month
 plt.bar(x=df_by_month['month_txt'],height= df_by_month['number_of_strikes'], label="Number of strikes")
 plt.plot()
 
-plt.xlabel("Months(2018)")
+plt.xlabel("Months(2018")
 plt.ylabel("Number of lightning strikes")
 plt.title("Number of lightning strikes in 2018 by months")
 plt.legend()
